@@ -15,7 +15,7 @@ def run_game():
     pygame.display.set_caption("Alien Inversion")
 
     #make a ship
-    ship = Ship(screen)
+    ship = Ship(ai_settings, screen)
 
     #set the background color
     bg_color = (230, 230, 230)
